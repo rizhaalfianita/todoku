@@ -46,6 +46,8 @@ dependencies:
   build_runner: ^2.4.9
   swipeable_tile: ^2.0.1
   uuid: ^4.4.2
+  material_symbols_icons: ^4.2784.0
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:

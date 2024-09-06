@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:todoku_app/constants.dart';
 import 'package:todoku_app/views/home.dart';
+import 'package:todoku_app/widgets/custom_button.dart';
 
 class Landing extends StatelessWidget {
   const Landing({super.key});
@@ -9,7 +10,7 @@ class Landing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Padding(
+      body: Container(
         padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 32.0),
         child: Column(
           children: [
@@ -54,29 +55,16 @@ class Landing extends StatelessWidget {
             const Spacer(
               flex: 2,
             ),
-            Container(
-              width: double.infinity,
-              height: 50,
-              decoration: BoxDecoration(boxShadow: [shadow]),
-              child: ElevatedButton(
-                onPressed: () {
-                  Navigator.pushReplacement(
-                      context, MaterialPageRoute(builder: (context) => const Home()));
-                },
-                style: ElevatedButton.styleFrom(
-                    backgroundColor: orange,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(8.0),
-                    )),
-                child: Text(
-                  "Get Started",
-                  style: GoogleFonts.lexendDeca(
-                      textStyle: const TextStyle(
-                          color: white,
-                          fontSize: 16.0,
-                          fontWeight: FontWeight.w400)),
-                ),
-              ),
+            CustomButton(
+              text: "Get Started",
+              onTap: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const Home(),
+                  ),
+                );
+              },
             ),
           ],
         ),
