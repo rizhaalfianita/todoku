@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "776481681864",
+    "project_id": "todoku-c9d2f",
+    "storage_bucket": "todoku-c9d2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776481681864:android:245875ac7f15b5923010fd",
+        "android_client_info": {
+          "package_name": "com.example.todoku_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776481681864-fqt7bk1q623g97hn10fdfss6n210js03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.todoku_app",
+            "certificate_hash": "0326c7709c7c2e74579c705361bb5ae2691bef30"
+          }
+        },
+        {
+          "client_id": "776481681864-ecmfv7a3csfqs5u8sglhhrk0c5su7cgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9myFh0g4oWgjnJ9C-cY_lzExv2vMYW5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776481681864-ecmfv7a3csfqs5u8sglhhrk0c5su7cgi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776481681864-52odvhuvnn4o7mhtermf32529co7b41j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.todokuApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

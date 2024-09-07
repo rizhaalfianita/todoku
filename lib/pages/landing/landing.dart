@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:todoku_app/constants.dart';
-import 'package:todoku_app/views/home.dart';
-import 'package:todoku_app/widgets/custom_button.dart';
+import 'package:todoku_app/pages/home/ui/page/home.dart';
+import 'package:todoku_app/global_widgets/custom_button.dart';
 
 class Landing extends StatelessWidget {
   const Landing({super.key});

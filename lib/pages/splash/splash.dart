@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:todoku_app/constants.dart';
-import 'package:todoku_app/views/landing.dart';
+import 'package:todoku_app/pages/login/ui/page/login.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});
@@ -19,7 +19,7 @@ class _SplashState extends State<Splash> {
     Timer(
         const Duration(seconds: 5),
         () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => const Landing())));
+            context, MaterialPageRoute(builder: (context) => const Login())));
   }
 
   @override

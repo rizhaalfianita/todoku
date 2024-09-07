@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776481681864",
+    "project_id": "todoku-c9d2f",
+    "storage_bucket": "todoku-c9d2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776481681864:android:245875ac7f15b5923010fd",
+        "android_client_info": {
+          "package_name": "com.example.todoku_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9myFh0g4oWgjnJ9C-cY_lzExv2vMYW5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
